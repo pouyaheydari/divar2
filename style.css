@@ -1,0 +1,59 @@
+body{
+    direction: rtl;
+    margin: 0;
+    padding:0;
+
+}
+nav{
+    height: 50px;
+    border: 1px rgb(177, 177, 177) solid;
+    
+
+}
+nav img{
+    height:30px ;
+    margin: 10px;
+    float: right;
+}
+nav ul {
+    float: right;
+    list-style:none;
+
+}
+nav ul li{
+    float: right;
+    margin :auto 10px;
+    color: black;
+}
+nav ul.page{
+    float: left;
+}
+nav ul.page li{
+    border-radius: 5px;
+    background: red;
+}
+section.mother{
+    display: flex;
+    width: 100%;
+}
+div.mohtava{
+    width: 230px;
+    border: 1px solid rgb(233, 233, 233);
+    height: 190;
+}
+div.mohtava ul{
+    list-style: none;
+    padding:6px;
+    /* margin: -10px; */
+}
+div.mohtava ul li{
+    margin-left:2px;
+    margin: auto 10px;
+}
+div.daste{
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219);
+}
+div.daste.s{
+    
+}
